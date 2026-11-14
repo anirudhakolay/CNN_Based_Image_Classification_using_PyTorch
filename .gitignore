@@ -1,0 +1,23 @@
+# Environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset folders (too large for GitHub)
+train/
+val/
+data/
+
+# Model checkpoints (ignore large checkpoints, but track lightweight best_model.pth)
+*.pth
+*.pt
+!best_model.pth
+
+# OS specific
+.DS_Store
+Thumbs.db
+
