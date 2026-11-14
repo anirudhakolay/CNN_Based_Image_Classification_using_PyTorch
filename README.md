@@ -4,13 +4,13 @@ A deep learning project implementing a Convolutional Neural Network (CNN) in PyT
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Image classification is a fundamental problem in computer vision. The objective of this project is to build and train an end-to-end deep learning pipeline that can accurately distinguish between cats, domestic dogs, and wild animals from facial images.
 
 ---
 
-## 📂 Dataset Details
+## Dataset Details
 
 The dataset follows the **Animal Faces (AFHQ)** format and is organized into training and validation directories:
 
@@ -32,7 +32,7 @@ The dataset follows the **Animal Faces (AFHQ)** format and is organized into tra
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 The model is built using a custom 4-block Convolutional Neural Network (`SimpleCNN`) implemented in PyTorch:
 
@@ -54,7 +54,7 @@ The model is built using a custom 4-block Convolutional Neural Network (`SimpleC
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 CNN_Image_Classification_AnirudhaKolay/
@@ -69,7 +69,7 @@ CNN_Image_Classification_AnirudhaKolay/
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -95,7 +95,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🏋️‍♂️ How to Run
+## How to Run
 
 ### 1. Train the Model
 To start training the CNN on your dataset:
@@ -139,7 +139,7 @@ Class Probabilities:
 
 ---
 
-## 📊 Training Results (5 Epochs on Apple Silicon M4)
+## Training Results (5 Epochs on Apple Silicon M4)
 * **Final Training Accuracy:** 97.66%
 * **Best Validation Accuracy:** **98.07%**
 * **Training Time:** ~4.18 minutes total (~50 seconds / epoch using PyTorch Apple Silicon MPS)
