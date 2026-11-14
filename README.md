@@ -73,8 +73,8 @@ CNN_Image_Classification_AnirudhaKolay/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/anirudhakolay/CNN_Image_Classification_AnirudhaKolay.git
-cd CNN_Image_Classification_AnirudhaKolay
+git clone https://github.com/anirudhakolay/CNN_Based_Image_Classification_using_PyTorch.git
+cd CNN_Based_Image_Classification_using_PyTorch
 ```
 
 ### 2. Create and Activate a Virtual Environment
@@ -140,15 +140,15 @@ Class Probabilities:
 ---
 
 ## 📊 Training Results (5 Epochs on Apple Silicon M4)
-* **Final Training Accuracy:** 97.11%
-* **Best Validation Accuracy:** **97.60%**
-* **Training Time:** ~4.2 minutes total (~50 seconds / epoch using PyTorch Apple Silicon MPS)
+* **Final Training Accuracy:** 97.66%
+* **Best Validation Accuracy:** **98.07%**
+* **Training Time:** ~4.18 minutes total (~50 seconds / epoch using PyTorch Apple Silicon MPS)
 * **Epoch-wise Progression:**
-  * Epoch 1: Train Acc: 80.38% | Val Acc: 92.13%
-  * Epoch 2: Train Acc: 93.75% | Val Acc: 95.20%
-  * Epoch 3: Train Acc: 95.63% | Val Acc: 95.40%
-  * Epoch 4: Train Acc: 96.71% | Val Acc: 97.60% (Best Checkpoint Saved)
-  * Epoch 5: Train Acc: 97.11% | Val Acc: 94.67%
+  * Epoch 1: Train Acc: 84.68% | Val Acc: 95.07%
+  * Epoch 2: Train Acc: 95.41% | Val Acc: 95.67%
+  * Epoch 3: Train Acc: 96.70% | Val Acc: 98.07% (Best Checkpoint Saved)
+  * Epoch 4: Train Acc: 97.60% | Val Acc: 97.53%
+  * Epoch 5: Train Acc: 97.66% | Val Acc: 97.87%
 
 ![Training Curves](training_curves.png)
 
